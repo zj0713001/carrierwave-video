@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec", "~> 3.3.0"
   s.add_development_dependency "rake"
 
-  s.add_runtime_dependency 'streamio-ffmpeg', git: 'git@github.com:zj0713001/streamio-ffmpeg.git', branch: :master
+  s.add_runtime_dependency 'streamio-ffmpeg', github: 'zj0713001/streamio-ffmpeg', branch: :master
   s.add_runtime_dependency 'carrierwave'
   s.requirements << 'ruby, version 1.9 or greater'
   s.requirements << 'ffmpeg, version 0.11.1 or greater with libx256, libfaac, libtheora, libvorbid, libvpx enabled'
